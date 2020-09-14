@@ -219,7 +219,9 @@ class _BoardScreenState extends State<BoardScreen> {
           );
         },
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.endTop,
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.pink,
         onPressed: () => _showDialog(context),
         child: Icon(FontAwesomeIcons.pen),
       ),
